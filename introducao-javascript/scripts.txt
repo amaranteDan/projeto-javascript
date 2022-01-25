@@ -1,0 +1,15 @@
+comando: alert
+
+<script>
+alert("Olá mundo");
+</script>
+
+document.querySelector("h1"); -> seleciona a linha que qero formatar.
+dica de boa pratica. Scripts javascript devem ir no final do body, para o devido carregamento da pagina
+
+criando uma variavel para guardar a informação a ser alterada.
+
+<script>
+    var titulo = document.querySelector("h1");
+    titulo.textContent = "Aparecida Nutricionista";
+</script>
